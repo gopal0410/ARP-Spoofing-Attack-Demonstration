@@ -43,7 +43,7 @@ Here, our victim machine is mint-Virtualbox. We note its IP address for our ARP 
 ## ARP Behaviour Observation
 **Before Communication**
 
-Now, we check the arp table from our victim machine. This table shows all the MAC addresses and their respective IP addresses. Here, since we first started in our attacker machine and checked its IP address, it is already mapped. And >192.168.31.1 is the gateway IP address.
+Now, we check the arp table from our victim machine. This table shows all the MAC addresses and their respective IP addresses. Here, since we first started in our attacker machine and checked its IP address, it is already mapped. And `192.168.31.1` is the gateway IP address.
 
 ![]()
 
