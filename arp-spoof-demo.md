@@ -1,6 +1,5 @@
 #   Project Title
 ##  Demonstration of ARP Spoofing Attack in a Virtualised Network Environment
-***
 
 ##  Description
 This project demonstrates an **ARP Spoofing** (ARP Poisoning) attack in a controlled virtual lab to highlight security weaknesses in the ARP. Since ARP does not authenticate responses, it can be exploited to perform **Man-in-the-Middle** (MITM) attacks.
@@ -24,12 +23,14 @@ For the scope of this project, we are only required to check from the victim mac
 ## Checking the attacker machine's IP
 First, we will begin by checking our own device's IP address.
 We will achieve this by using the following command:
+
 `ip addr`
 
 ![]()
 ## Checking for devices and their IPs in the network
 Now we will begin by checking the devices that are connected to the network and note their IP addresses. Then we will select the victim machine.
 We will check available machines on the network using the following command:
+
 `sudo nmap -sn -T5 -v 192.168.31.0/24`
 
 ![](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration.git/images/network-scan.png)
@@ -39,13 +40,17 @@ Here, our victim machine is mint-Virtualbox. We note its IP address for our ARP 
 
 ## ARP Behaviour Observation
 **Before Communication**
+
 Now, we check the arp table from our victim machine. This table shows all the MAC addresses and their respective IP addresses. Here, since we first started in our attacker machine and checked its IP address, it is already mapped. And >192.168.31.1 is the gateway IP address.
 
 ![]()
 
 **After ICMP Communication**
+
 Now, in our victim machine we ping devices and then note the arp table. We will ping every/any device in the network using the following command:
+
 `sudo nmap -sn 192.168.31.0/24`
+
 For now, I am pinging every device in the network
 
 Finally, the arp table is observed.
