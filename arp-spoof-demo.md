@@ -27,6 +27,8 @@ We will achieve this by using the following command:
 `ip addr`
 
 ![]()
+***
+
 ## Checking for devices and their IPs in the network
 Now we will begin by checking the devices that are connected to the network and note their IP addresses. Then we will select the victim machine.
 We will check available machines on the network using the following command:
