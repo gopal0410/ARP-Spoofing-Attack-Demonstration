@@ -32,8 +32,7 @@ We will check available machines on the network using the following command:
 
 `sudo nmap -sn 192.168.31.0/24`
 
-Here,
-    - -sn -> Ping scan
+Here, -sn -> Ping scan
 
 ![devices](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration/blob/master/images/attacker-machine-ss/devices-ip.png?raw=true)
 
@@ -42,7 +41,7 @@ Here, our victim machine is **mint-Virtualbox**. We note its IP address for our 
 ## ARP Behaviour Observation
 **Before Communication**
 
-Now, we check the arp table from our victim machine. This table shows all the MAC addresses and their respective IP addresses. Here, since we first started in our attacker machine and checked its IP address, it is already mapped. And `192.168.31.1` is the gateway IP address.
+Now, we check the arp table using `arp -n` from our victim machine. This table shows all the MAC addresses and their respective IP addresses. Here, since we first started in our attacker machine and checked its IP address, it is already mapped. And `192.168.31.1` is the gateway IP address.
 
 ![arp table before communication](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration/blob/master/images/victim-machine-ss/arp-scan1.png?raw=true)
 
