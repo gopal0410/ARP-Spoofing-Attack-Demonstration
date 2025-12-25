@@ -30,7 +30,10 @@ We will achieve this by using the following command:
 Now we will begin by checking the devices that are connected to the network and note their IP addresses. Then we will select the victim machine.
 We will check available machines on the network using the following command:
 
-`sudo nmap -sn -T5 -v 192.168.31.0/24`
+`sudo nmap -sn 192.168.31.0/24`
+
+Here,
+    - -sn -> Ping scan
 
 ![devices](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration/blob/master/images/attacker-machine-ss/devices-ip.png?raw=true)
 
