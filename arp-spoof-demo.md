@@ -35,7 +35,7 @@ We will check available machines on the network using the following command:
 
 ![devices](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration/blob/master/images/attacker-machine-ss/devices-ip.png?raw=true)
 
-Here, our victim machine is mint-Virtualbox. We note its IP address for our ARP Spoofing.
+Here, our victim machine is **mint-Virtualbox**. We note its IP address for our ARP Spoofing.
 
 ## ARP Behaviour Observation
 **Before Communication**
