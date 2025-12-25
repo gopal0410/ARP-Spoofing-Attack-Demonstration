@@ -32,7 +32,8 @@ We will check available machines on the network using the following command:
 
 `sudo nmap -sn 192.168.31.0/24`
 
-Here, -sn -> Ping scan
+Here, 
+* -sn -> Ping scan
 
 ![devices](https://github.com/gopal0410/ARP-Spoofing-Attack-Demonstration/blob/master/images/attacker-machine-ss/devices-ip.png?raw=true)
 
