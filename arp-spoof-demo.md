@@ -62,9 +62,9 @@ Finally, the arp table is observed.
 ## Attack Launch from attacker machine
 Now that we know our own IP address and the victim machine's IP address, we can begin our attack.
 We will first sniff the traffic on the **enp0s3** interface by using `sudo ettercap -T -i enp0s3 -M arp:remote /192.168.31.201// /192.168.31.1//`
-    *`-T` means text interface
-    *`-i enp0s3` means network interface
-    *`arp:remote` means bidirectional poisoning
+* `-T` means text interface
+* `-i enp0s3` means network interface
+* `arp:remote` means bidirectional poisoning
 
 Now, we will see some traffic. For now, the victim machine opens an http page and the results are visible on the attacker machine as shown below. https pages are highly encrypted and cannot be read normally.
 
