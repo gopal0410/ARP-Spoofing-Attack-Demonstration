@@ -1,5 +1,4 @@
-#   Project Title
-##  Demonstration of ARP Spoofing Attack in a Virtualised Network Environment
+#  Demonstration of ARP Spoofing Attack in a Virtualised Network Environment
 
 ##  Description
 This project demonstrates an **ARP Spoofing** (ARP Poisoning) attack in a controlled virtual lab to highlight security weaknesses in the ARP. Since ARP does not authenticate responses, it can be exploited to perform **Man-in-the-Middle** (MITM) attacks.
